@@ -381,7 +381,7 @@ header i:hover {
 .card--news::after {
   content: "Nouveau";
   position: absolute;
-  top: 15px;
+  top: 33px;
   right: 15px;
   font-weight: 500;
   border-radius: 3px;
