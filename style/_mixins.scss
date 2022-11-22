@@ -155,43 +155,43 @@
                 //Les animations démarrent en décalées
                 &__delay {
                     &1 {
-                        animation: toLeft cubic-bezier(.17,.67,.67,1.16) 0.8s;
+                        animation: toUp cubic-bezier(.17,.67,.67,1.16) 0.8s;
                     }
 
                     &2 {
-                        animation: toLeft cubic-bezier(.17,.67,.67,1.16) 0.8s 0.2s both;
+                        animation: toUp cubic-bezier(.17,.67,.67,1.16) 0.8s 0.2s both;
                     }
 
                     &3 {
-                        animation: toLeft cubic-bezier(.17,.67,.67,1.16) 0.8s 0.3s both;
+                        animation: toUp cubic-bezier(.17,.67,.67,1.16) 0.8s 0.3s both;
                     }
 
                     &4 {
-                        animation: toLeft cubic-bezier(.17,.67,.67,1.16) 0.8s 0.4s both;
+                        animation: toUp cubic-bezier(.17,.67,.67,1.16) 0.8s 0.4s both;
                     }
 
                     &5 {
-                        animation: toLeft cubic-bezier(.17,.67,.67,1.16) 0.8s 0.5s both;
+                        animation: toUp cubic-bezier(.17,.67,.67,1.16) 0.8s 0.5s both;
                     }
 
                     &6 {
-                        animation: toLeft cubic-bezier(.17,.67,.67,1.16) 0.8s 0.6s both;
+                        animation: toUp cubic-bezier(.17,.67,.67,1.16) 0.8s 0.6s both;
                     }
 
                     &7 {
-                        animation: toLeft cubic-bezier(.17,.67,.67,1.16) 0.8s 0.7s both;
+                        animation: toUp cubic-bezier(.17,.67,.67,1.16) 0.8s 0.7s both;
                     }
 
                     &8 {
-                        animation: toLeft cubic-bezier(.17,.67,.67,1.16) 0.8s 0.8s both;
+                        animation: toUp cubic-bezier(.17,.67,.67,1.16) 0.8s 0.8s both;
                     }
 
                     &9 {
-                        animation: toLeft cubic-bezier(.17,.67,.67,1.16) 0.8s 0.9s both;
+                        animation: toUp cubic-bezier(.17,.67,.67,1.16) 0.8s 0.9s both;
                     }
 
                     &10 {
-                        animation: toLeft cubic-bezier(.17,.67,.67,1.16) 0.8s 1s both;
+                        animation: toUp cubic-bezier(.17,.67,.67,1.16) 0.8s 1s both;
                     }
                 }
 
@@ -271,7 +271,7 @@
 }
 
 
-@keyframes toLeft {
+@keyframes toUp {
     0% {
         transform: translateY(50px);
         opacity: 0;

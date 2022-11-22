@@ -106,7 +106,7 @@ $margin-burger: 2px 0px 2px 0px;
         }
     
         &__salade {
-            animation: hamburger cubic-bezier(.51,1.13,.86,1.02) 0.3s 1.5s both, hamburgerLeft 1s 3s forwards;;
+            animation: hamburger cubic-bezier(.51,1.13,.86,1.02) 0.3s 1.5s both, hamburgerLeft 1s 3s forwards;
             width: $largeur-burger;
             height: $hauteur-burger;
             background-color: #40aa42;
@@ -146,11 +146,11 @@ $margin-burger: 2px 0px 2px 0px;
 
 
 @keyframes hamburger {
-    0% {
+    from {
         transform: translateY(-500px);
     }
 
-    100% {
+    to {
         transform: translateY(0px);
     }
 }
@@ -421,37 +421,3 @@ footer {
         }
     } 
 }
-
-
-
-
-.card {
-    ///
-    /// 
-    /// 
-}
-
-.card__news {
-    /// 
-    /// 
-    /// 
-}
-
-.card__img {
-    /// 
-    /// 
-    /// 
-}
-
-.card__desc {
-    /// 
-    /// 
-    /// 
-}
-
-.card__like {
-    /// 
-    /// 
-    /// 
-}
-
