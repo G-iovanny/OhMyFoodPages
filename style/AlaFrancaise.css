@@ -4,7 +4,7 @@
 /*CSS des boutons avec dégradé rose*/
 /*le padding du bouton est une variable avec argument, par défaut 10px sur Y et 20px sur X, et 20px de border-radius par défaut*/
 /*CSS du container des menus*/
-@-webkit-keyframes toLeft {
+@-webkit-keyframes toUp {
   0% {
     transform: translateY(50px);
     opacity: 0;
@@ -14,7 +14,7 @@
     opacity: 1;
   }
 }
-@keyframes toLeft {
+@keyframes toUp {
   0% {
     transform: translateY(50px);
     opacity: 0;
@@ -147,44 +147,44 @@ header i:hover {
   margin-bottom: 15px;
 }
 .container .menu-cards .container-cards .cards__delay1 {
-  -webkit-animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s;
-          animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s;
+  -webkit-animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s;
+          animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s;
 }
 .container .menu-cards .container-cards .cards__delay2 {
-  -webkit-animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.2s both;
-          animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.2s both;
+  -webkit-animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.2s both;
+          animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.2s both;
 }
 .container .menu-cards .container-cards .cards__delay3 {
-  -webkit-animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.3s both;
-          animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.3s both;
+  -webkit-animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.3s both;
+          animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.3s both;
 }
 .container .menu-cards .container-cards .cards__delay4 {
-  -webkit-animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.4s both;
-          animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.4s both;
+  -webkit-animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.4s both;
+          animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.4s both;
 }
 .container .menu-cards .container-cards .cards__delay5 {
-  -webkit-animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.5s both;
-          animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.5s both;
+  -webkit-animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.5s both;
+          animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.5s both;
 }
 .container .menu-cards .container-cards .cards__delay6 {
-  -webkit-animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.6s both;
-          animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.6s both;
+  -webkit-animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.6s both;
+          animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.6s both;
 }
 .container .menu-cards .container-cards .cards__delay7 {
-  -webkit-animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.7s both;
-          animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.7s both;
+  -webkit-animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.7s both;
+          animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.7s both;
 }
 .container .menu-cards .container-cards .cards__delay8 {
-  -webkit-animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.8s both;
-          animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.8s both;
+  -webkit-animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.8s both;
+          animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.8s both;
 }
 .container .menu-cards .container-cards .cards__delay9 {
-  -webkit-animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.9s both;
-          animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.9s both;
+  -webkit-animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.9s both;
+          animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 0.9s both;
 }
 .container .menu-cards .container-cards .cards__delay10 {
-  -webkit-animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 1s both;
-          animation: toLeft cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 1s both;
+  -webkit-animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 1s both;
+          animation: toUp cubic-bezier(0.17, 0.67, 0.67, 1.16) 0.8s 1s both;
 }
 .container .menu-cards .container-cards .cards:hover .cards__price-select {
   margin-right: 0px;
